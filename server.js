@@ -2,7 +2,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
 
-const DB_URL = "mongodb+srv://sa:s3cr3t@cluster0.qa3t4.mongodb.net/gbc-fall2020?retryWrites=true&w=majority"
+const DB_URL = "mongodb+srv://mahyargh:M~4hy4rgh1@cluster0.rjnawtv.mongodb.net/comp3123_fullStack_lab_exec_06"
 const app = express();
 app.use(bodyParser.urlencoded({ extended: true }))
 app.use(bodyParser.json())
@@ -27,5 +27,5 @@ app.get('/', (req, res) => {
 
 
 app.listen(8081, () => {
-    console.log("Server is listening on port 3000");
+    console.log("Server is listening on port 8081");
 });

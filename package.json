@@ -4,7 +4,9 @@
   "description": "Week06 Exercise as note taking application",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\""
+    "test": "echo \"Error: no test specified\"",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
   },
   "keywords": [
     "expressJS",
@@ -16,11 +18,11 @@
     "mongoose",
     "notes"
   ],
-  "author": "Pritesh Patel",
+  "author": "Mahyar Ghasemi Khah - 101399392",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.18.3",
     "express": "^4.16.3",
-    "mongoose": "^5.2.8"
+    "mongoose": "^7.6.2"
   }
 }
